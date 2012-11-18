@@ -22,7 +22,8 @@ Builds all packages for a maintainer and writes a logfile.
 
 ### Arguments
  * see get-own-packages-raw.rb
-Change:
+
+### Change
  * see get-own-packages-raw.rb
 
 ## get-own-packages.rb
@@ -43,12 +44,12 @@ Lists all packages in raw format for buildcheck.sh.
  * --skip <comma-seperated-list>
   * Skip these packages. (e.g. --skip package1,package2,package3)
  * --only <comma-seperated-list>
-  * Only search for these packages (e.g. --only package1,package2,package3)
+  * Only search for these packages. (e.g. --only package1,package2,package3)
 
 ## buildcheck-log-analyser.rb
 Analyses the logfiles written by buildcheck.sh.
 
-### Argument
+### Arguments
  * path to the logfile
 
 ## localclean.sh
